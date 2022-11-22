@@ -828,6 +828,7 @@ background-color: white;
   height: 100%;
   background-color: var(--main-color);
   border-radius: 3px;
+  transition: width .5s linear;
 }
 .our-skills .skills .skill .bar-one::after {
   content: "";
@@ -1325,7 +1326,6 @@ background-color: white;
   flex-wrap: wrap;
 }
 .discount .image {
-  background-image: url(image/discount-background1.jpg);
   background-size: cover;
   color: white;
   flex-basis: 50%;
