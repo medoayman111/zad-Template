@@ -1325,7 +1325,7 @@ background-color: white;
   flex-wrap: wrap;
 }
 .discount .image {
-  background-image: url(/image/discount-background1.jpg);
+  background-image: url(image/discount-background1.jpg);
   background-size: cover;
   color: white;
   flex-basis: 50%;
@@ -1570,9 +1570,9 @@ background-color: white;
 }
 @keyframes change-bg {
   0%, 100%{
-    background-image: url(/image/discount-background1.jpg);
+    background-image: url(image/discount-background1.jpg);
   }50%{
-    background-image: url(/image/discount-background2.jpg);
+    background-image: url(image/discount-background2.jpg);
   }
 }
 /* End Animation */
