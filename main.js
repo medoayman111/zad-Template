@@ -31,3 +31,20 @@ function startCount(el) {
     }
   }, 2000 / goal);
 }
+
+let btnUp = document.querySelector(".btn");
+window.onscroll = function () {
+  if (window.scrollY >= 800){
+    btnUp.style.display = "block";
+  }else{
+    btnUp.style.display = "none";
+  }
+};
+
+btnUp.onclick = function () {
+  window.scrollTo({
+    left: 0,
+    top: 0,
+    behavior:"smooth",
+  });
+};
